@@ -38,5 +38,16 @@ function calcular()
         document.getElementById('resultado').innerHTML = "Nada..."
 
     }
-
+    
 }
+const botao= document.getElementById("muda-cor");
+
+botao.addEventListener("click", () => {
+    const temaAtual= document.documentElement.getAttribute("data-theme");
+    if (temaAtual==="dark"){
+        document.documentElement.removeAttribute("data-theme");
+}
+    else{
+        document.documentElement.setAttribute("data-theme","dark");    
+    }
+});  

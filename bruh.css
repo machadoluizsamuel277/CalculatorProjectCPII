@@ -10,8 +10,6 @@ h1,
 p {
   margin: 0;
 }
-
-
 :root {
   --fundo: #d6d4cf;
   --corpo: #e9e7e2;
@@ -24,6 +22,23 @@ p {
   --tecla-fn: #bdbab3;
   --tecla-op: #6b6862;
   --destaque: #c9500f;
+
+  --fonte: ui-monospace, "SFMono-Regular", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+}
+
+
+[data-theme="dark"]{
+  --fundo: #40E0D0;
+  --corpo: #000080;
+  --visor: #bfc7ae;
+  --visor-texto: #1f2418;
+  --texto: #1c1c1c;
+  --texto-suave: #6e6b65;
+
+  --tecla-num: #FF1493;
+  --tecla-fn: #D8BFD8;
+  --tecla-op: #00FA9A;
+  --destaque: #800080;
 
   --fonte: ui-monospace, "SFMono-Regular", Menlo, Consolas, "DejaVu Sans Mono", monospace;
 }
@@ -148,4 +163,17 @@ td[rowspan] button {
   button {
     transition: none;
   }
+}
+#muda-cor{
+  width:30px;
+  height: 30px;
+  top: 5px;
+  right:5px;
+  position:absolute;
+}
+
+#sol{
+  width: 15px;
+  height:15px;
+  background-color:black;
 }
