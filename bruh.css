@@ -27,20 +27,18 @@ p {
 }
 
 
-[data-theme="dark"]{
-  --fundo: #40E0D0;
-  --corpo: #000080;
-  --visor: #bfc7ae;
-  --visor-texto: #1f2418;
-  --texto: #1c1c1c;
-  --texto-suave: #6e6b65;
+[data-theme="dark"] {
+  --fundo: #121214;
+  --corpo: #1f1f23;
+  --visor: #11160f;
+  --visor-texto: #b8f2a0;
+  --texto: #ececec;
+  --texto-suave: #8d8d94;
 
-  --tecla-num: #FF1493;
-  --tecla-fn: #D8BFD8;
-  --tecla-op: #00FA9A;
-  --destaque: #800080;
-
-  --fonte: ui-monospace, "SFMono-Regular", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  --tecla-num: #35353b;
+  --tecla-fn: #55555e;
+  --tecla-op: #3f4f66;
+  --destaque: #c9500f;
 }
 
 
