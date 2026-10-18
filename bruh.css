@@ -22,7 +22,7 @@ p {
   --tecla-fn: #bdbab3;
   --tecla-op: #6b6862;
   --destaque: #c9500f;
-
+  --botao-cor:#121214;
   --fonte: ui-monospace, "SFMono-Regular", Menlo, Consolas, "DejaVu Sans Mono", monospace;
 }
 
@@ -39,6 +39,8 @@ p {
   --tecla-fn: #55555e;
   --tecla-op: #3f4f66;
   --destaque: #c9500f;
+  --botao-cor:#c9500f;
+  
 }
 
 
@@ -162,14 +164,22 @@ td[rowspan] button {
 }
 #muda-cor{
   width:30px;
-  height: 30px;
+  height:30px;
   top: 5px;
   right:5px;
   position:absolute;
+  background: var(--botao-cor);
+
+  
 }
 
-#sol{
-  width: 15px;
-  height:15px;
-  background-color:black;
+#titulo{
+  font-size:50px;
+
+}
+#nomes{
+  position:absolute;
+  right:5px;
+  bottom:5px;
+  text-align: center;
 }
