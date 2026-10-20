@@ -173,13 +173,12 @@ td[rowspan] button {
   
 }
 
-#titulo{
-  font-size:50px;
 
-}
+
 #nomes{
   position:absolute;
   right:5px;
   bottom:5px;
   text-align: center;
+  color: var(--texto-suave);
 }
